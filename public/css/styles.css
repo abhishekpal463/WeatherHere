@@ -1,0 +1,136 @@
+*{
+  outline: none;
+}
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    background-color: #70b6eb;
+    background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+}
+h1{
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  padding: 2rem 0 0.5rem 0;
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  padding: 2.5rem;
+  text-align: left;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 18px;
+}
+.navbar-brand{
+  padding-left: 1.5rem;
+}
+.nav-item{
+  padding: 1.5rem 2.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border:0;
+    background-color: transparent;
+}
+
+#cover
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 1150px;
+    padding: 35px;
+    margin: -83px auto 0 auto;
+    background-color: #4d80e4;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px  #7fb3db, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+}
+
+form
+{
+    height: 80px;
+}
+input[type="text"]
+{
+    width: 100%;
+    height: 80px;
+    font-size: 60px;
+    line-height: 1;
+}
+input[type="text"]::placeholder
+{
+    color: #ffffffeb;
+}
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+button
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.table {
+  margin-left: 20%;
+  margin-right: 20%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 60%;
+}
+
+td,tr {
+  text-align: center;
+  padding: 12px;
+}
+
+/* tr:nth-child(even) {background-color: #f2f2f2;} */
+
+.footer {
+	text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width:100%;
+  overflow: hidden;
+}

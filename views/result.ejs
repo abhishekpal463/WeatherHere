@@ -1,0 +1,58 @@
+<%- include("header") -%>
+
+<h1><%=city%>, <%=country%> <span><img src="<%=icon%>" alt="Unable to download"/></span> </h1>
+<table class="table table-hover">
+  <tr>
+    <td>
+      <h3>Temperature</h3>
+    </td>
+    <td>
+      <h3><%=temperature%> &#8451;</h3>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Feel Like</h3>
+    </td>
+    <td>
+    <h3><%=feel%> &#8451;</h3>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Humidity</h3>
+    </td>
+    <td>
+    <h3><%=humidity%> %</h3>
+  </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Pressure</h3>
+    </td>
+    <td>
+      <h3><%=pressure%> hPa</h3>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Wind Speed</h3>
+    </td>
+    <td>
+      <h3><%=windSpeed%> km/h</h3>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Weather Condition</h3>
+    </td>
+    <td>
+      <h3><%=description%></h3>
+    </td>
+  </tr>
+</table>
+<!-- <h2>The Weather is currently "+<%=description%>+"</h2>
+<img src="<%=icon%>" alt="Unable to download"/> -->
+
+
+  <%- include("footer") -%>
